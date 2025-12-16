@@ -1,0 +1,116 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Página */
+body {
+  background-color: #f4f6f8;
+  color: #333;
+  padding: 2rem;
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+/* Seção do formulário */
+section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Formulário */
+form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Fieldsets */
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Legendas */
+legend {
+  padding: 0 0.5rem;
+  font-weight: bold;
+}
+
+/* Labels */
+label {
+  display: inline-block;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Inputs gerais */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Inputs especiais */
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 0.3rem;
+}
+
+input[type="color"] {
+  padding: 0.2rem;
+  height: 40px;
+}
+
+/* Textarea */
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Parágrafos dentro do form */
+form p {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/* Botão */
+button {
+  display: block;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #5a67d8;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #434190;
+}
+
+/* Seção de sugestão */
+.sugestao {
+  margin-top: 1rem;
+}
