@@ -114,3 +114,12 @@ button:hover {
 .sugestao {
   margin-top: 1rem;
 }
+
+
+input:required:focus,
+select:required:focus,
+textarea:required:focus {
+  outline: none;
+  border-color: #e53e3e; /* vermelho */
+  box-shadow: 0 0 0 2px rgba(229, 62, 62, 0.25);
+}
